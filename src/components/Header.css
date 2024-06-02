@@ -1,0 +1,9 @@
+.nav-link-custom {
+    font-size: 1.3rem; /* Увеличиваем размер шрифта */
+    transition: transform 0.3s ease-in-out; /* Добавляем плавный переход */
+    margin: 0 20px; /* Добавляем отступы слева и справа */
+}
+
+.nav-link-custom:hover {
+    transform: rotate(+5deg); /* Наклоняем элемент при наведении */
+}

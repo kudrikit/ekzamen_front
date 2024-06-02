@@ -2,17 +2,24 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
+main {
+  flex-grow: 1;
+}
+
+.card-body .btn {
+  margin-top: 10px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +42,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.carousel-item img {
+  width: 900px;
+  height: 600px;
+  object-fit: cover;/* Автоматическое определение высоты для сохранения пропорций */
 }
