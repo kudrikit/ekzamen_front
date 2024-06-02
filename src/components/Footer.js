@@ -29,10 +29,10 @@ function Footer() {
                     <div className="col-md-4">
                         <h5>Следите за нами:</h5>
                         <ul className="list-unstyled">
-                            <li><a href="https://facebook.com" className="text-white"><i className="fab fa-facebook footer-icon"></i> Facebook</a></li>
-                            <li><a href="https://twitter.com" className="text-white"><i className="fab fa-twitter footer-icon"></i> Twitter</a></li>
-                            <li><a href="https://instagram.com" className="text-white"><i className="fab fa-instagram footer-icon"></i> Instagram</a></li>
-                            <li><a href="https://linkedin.com" className="text-white"><i className="fab fa-linkedin footer-icon"></i> LinkedIn</a></li>
+                            <li><a href="https://www.facebook.com/people/Starbucks-Казахстан/100089954462101/" className="text-white"><i className="fab fa-facebook footer-icon"></i> Facebook</a></li>
+                            <li><a href="https://x.com/starbucks/" className="text-white"><i className="fab fa-twitter footer-icon"></i> Twitter</a></li>
+                            <li><a href="https://www.instagram.com/starbuckskz/?igshid=YmMyMTA2M2Y%3D" className="text-white"><i className="fab fa-instagram footer-icon"></i> Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/company/starbucks" className="text-white"><i className="fab fa-linkedin footer-icon"></i> LinkedIn</a></li>
                         </ul>
                     </div>
                 </div>

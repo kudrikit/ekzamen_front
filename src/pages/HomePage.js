@@ -12,9 +12,13 @@ import '../App.css';
 function HomePage() {
     return (
         <div className="container">
-            <h2 className="my-4">Добро пожаловать в нашу кофейню!</h2>
-            <p>Здесь вы можете насладиться ароматным кофе и вкусными десертами.</p>
+            <h2 className="my-4"> Добро пожаловать в Starbucks!<span className="badge text-bg-secondary">У нас вы можете насладиться ароматным кофе и вкусными десертами.</span>
+            </h2>
 
+            <br/>
+
+            <h1>Актуальные <span className="badge text-bg-success">новости</span></h1>
+            <br/>
             <div id="carouselExampleIndicators" className="carousel slide">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"

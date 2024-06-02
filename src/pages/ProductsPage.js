@@ -3,12 +3,17 @@ import React, { Component } from 'react';
 import ProductCard from '../components/ProductCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// Импорт фотографий
+import coffee1 from '../assets/1coffee.jpg';
+import coffee2 from '../assets/2coffee.jpg';
+import coffee3 from '../assets/3coffee.webp';
+
 class ProductsPage extends Component {
     render() {
         const products = [
-            { id: 1, title: 'Кофе Арабика', description: 'Описание товара Арабика', imageUrl: 'https://via.placeholder.com/150' },
-            { id: 2, title: 'Кофе Робуста', description: 'Описание товара Робуста', imageUrl: 'https://via.placeholder.com/150' },
-            { id: 3, title: 'Кофе Либерика', description: 'Описание товара Либерика', imageUrl: 'https://via.placeholder.com/150' }
+            { id: 1, title: 'Caramel Macchiato', description: 'Эспрессо с ванильным сиропом, молоком и карамельной начинкой.', imageUrl: coffee1 },
+            { id: 2, title: 'Caffè Mocha', description: 'Эспрессо с шоколадным соусом и вспененным молоком, украшенный взбитыми сливками.', imageUrl: coffee2 },
+            { id: 3, title: 'Flat White', description: 'Сильный эспрессо с бархатистым вспененным молоком.', imageUrl: coffee3 }
         ];
 
         return (

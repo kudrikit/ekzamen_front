@@ -45,7 +45,24 @@ main {
 }
 
 .carousel-item img {
-  width: 900px;
+  width: 800px;
   height: 600px;
   object-fit: cover;/* Автоматическое определение высоты для сохранения пропорций */
+}
+
+
+/* src/App.css or any global CSS file */
+.image-container {
+  width: 100%;
+  height: 400px; /* Вы можете изменить это значение на любое другое, чтобы задать нужный размер */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Сохраняет соотношение сторон, обрезая изображение по центру */
 }
